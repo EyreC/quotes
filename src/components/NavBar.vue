@@ -62,8 +62,8 @@ defineProps({});
               md:pt-0"
 				>
 					<li>
-						<a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-							>All Words</a
+						<router-link class="md:p-4 py-2 block hover:text-purple-400" to="/"
+							>All Words</router-link
 						>
 					</li>
 					<li>
@@ -74,6 +74,13 @@ defineProps({});
 					<li>
 						<a class="md:p-4 py-2 block hover:text-purple-400" href="#"
 							>Contribute</a
+						>
+					</li>
+					<li>
+						<router-link
+							class="md:p-4 py-2 block hover:text-purple-400"
+							to="/about"
+							>About</router-link
 						>
 					</li>
 				</ul>

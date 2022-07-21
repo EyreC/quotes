@@ -3,13 +3,12 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import QuoteContainer from './components/QuoteContainer.vue';
 import NavBar from './components/NavBar.vue';
-import quotes from './json/quote_data.json';
 </script>
 
 <template>
 	<div :class="['h-screen']">
 		<NavBar />
-		<QuoteContainer :quotes="quotes" />
+		<router-view />
 	</div>
 </template>
 
